@@ -14,7 +14,9 @@
         <module>Amazon</module>
         <module>Facebook</module>
         <module>ChaseBank</module>
-        <module>RandomApp</module>
+        <module>BestBuy</module>
+        <module>ebay</module>
+
     </modules>
 
     <dependencyManagement>

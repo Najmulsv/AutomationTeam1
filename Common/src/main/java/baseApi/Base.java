@@ -5,12 +5,10 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -142,10 +140,16 @@ public class Base {
     public void sleepFor(int sec)throws InterruptedException{
         Thread.sleep(sec * 1000);
     }
-    public void mouseHover(String locator){
+    public void mouseHoverByCss(String locator){
         WebElement element = driver.findElement(By.cssSelector(locator));
         Actions action = new Actions(driver);
-        Actions hover = action.moveToElement(element);
+        action.moveToElement(element).build().perform();
+    }
+
+    public void mouseHoverByXpath(String locator){
+        WebElement element = driver.findElement(By.xpath(locator));
+        Actions action = new Actions(driver);
+        action.moveToElement(element).build().perform();
     }
 
     public void selectElementByVisibleText(String locator, String value){
