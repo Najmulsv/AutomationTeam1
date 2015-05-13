@@ -442,7 +442,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431547480842</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Module Changes">
+      <created>1431547975001</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1431547975001</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -479,7 +485,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Module ABC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Module ABC" />
+    <MESSAGE value="Module Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module Changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -605,7 +612,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>ATUTestRecorder_2.1</last-edited>
+          <last-edited>mysql-connector-java-5.1.18-bin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
