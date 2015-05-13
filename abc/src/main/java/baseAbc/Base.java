@@ -46,7 +46,7 @@ public class Base {
         DateFormat dateFormat = new SimpleDateFormat("MM-dd-yy HH-mm-ss");
         Date date = new Date();
         //Created object of ATUTestRecorder; Provide path to store videos and file name format.
-        recorder = new ATUTestRecorder("C:\\Users\\Shibu\\Documents\\captured_image_video\\","TestVideo-"+dateFormat.format(date),false);
+        recorder = new ATUTestRecorder("C:\\Users\\nojrul2006\\Documents\\Workspace\\","TestVideo-"+dateFormat.format(date),false);
         //To start video recording.
         try {
             recorder.start();

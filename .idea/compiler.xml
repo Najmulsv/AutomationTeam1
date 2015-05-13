@@ -22,7 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="Amazon" />
+        <module name="abc" />
         <module name="BestBuy" />
         <module name="ChaseBank" />
         <module name="Cnn" />
@@ -30,6 +30,13 @@
         <module name="ebay" />
         <module name="Facebook" />
         <module name="RandomApp" />
+      </profile>
+      <profile default="false" name="Annotation profile for Amazon" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Amazon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
