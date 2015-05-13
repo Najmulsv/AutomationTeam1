@@ -118,15 +118,15 @@ public class Base {
         return element;
     }
 
-    public List<String> getListOfTextByCss(String locator){
-        List<WebElement> element = driver.findElements(By.cssSelector(locator));
-        List<String> text = new ArrayList<String>();
+   // public List<String> getListOfTextByCss(String locator){
+       // List<WebElement> element = driver.findElements(By.cssSelector(locator));
+     //   List<String> text = new ArrayList<String>();
 
-        for(WebElement st:element){
-            text.add(st.getText());
-        }
-        return text;
-    }
+        //for(WebElement st:element){
+          //  text.add(st.getText());
+        //}
+        //return text;
+    //}
 
     public String getTextByCss(String locator){
         String text = driver.findElement(By.cssSelector(locator)).getText();
@@ -192,6 +192,28 @@ public class Base {
         element.click();
 
         return driver;
+    }
+//////asd mathod
+
+    public List<String> getListOfTextByCss(String locator){
+        List<WebElement> element = driver.findElements(By.cssSelector(locator));
+        List<String> text = new ArrayList<String>();
+
+        for(WebElement st:element){
+            text.add(st.getText());
+        }
+        return text;
+    }
+
+
+    public List<String> searchDropDownMenu(String locator){
+        List<WebElement> element = driver.findElements(By.cssSelector(locator));
+        List<String> text = new ArrayList<String>();
+
+        for(WebElement st:element){
+            text.add(st.getText());
+        }
+        return text;
     }
 
 }

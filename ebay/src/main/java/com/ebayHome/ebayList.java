@@ -28,7 +28,7 @@ public class ebayList extends Base {
     }
 
     public List<String> searchDropDownMenu(String locator){
-        List<String> menuList = getTextByCss(locator);
+        List<String> menuList = getListOfTextByCss(locator);
 
         return menuList;
 
