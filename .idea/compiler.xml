@@ -39,7 +39,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="abc" target="1.5" />
       <module name="Amazon" target="1.8" />
+      <module name="AuotmationTeam1" target="1.5" />
       <module name="BestBuy" target="1.5" />
       <module name="ChaseBank" target="1.5" />
       <module name="Cnn" target="1.5" />

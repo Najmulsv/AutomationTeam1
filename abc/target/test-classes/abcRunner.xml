@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ABC Homepage Test on Web browser" >
+
+    <parameter name = "url" value = "http://www.abc.go.com"/>
+
+
+    <test name = "ABC Home Page ">
+        <classes>
+            <class name="AbcHome"/>
+
+
+
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="retryTest.RetryListener"/>
+    </listeners>
+</suite>
