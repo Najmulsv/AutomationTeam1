@@ -7,9 +7,10 @@
 
     <test name = "Ebay Home Page ">
         <classes>
-            <class name = "com.sales.ebaySignin"/>
-            <class name = "com.sales.EbayMainPage"/>
-            <class name = "com.sales.search"/>
+            <class name = "com.sales.ebayNavigation"/>
+            <!--<class name = "com.sales.ebaySignin"/>-->
+            <!--<class name = "com.sales.EbayMainPage"/>-->
+            <!--<class name = "com.sales.search"/>-->
 
 
 
