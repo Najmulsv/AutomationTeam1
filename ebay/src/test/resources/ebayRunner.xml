@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ebay test on Web browser" >
+
+    <parameter name = "url" value = "http://www.ebay.com"/>
+
+
+    <test name = "Ebay Home Page ">
+        <classes>
+            <class name = "com.sales.ebaySignin"/>
+            <class name = "com.sales.EbayMainPage"/>
+            <class name = "com.sales.search"/>
+
+
+
+        </classes>
+    </test>
+
+</suite>

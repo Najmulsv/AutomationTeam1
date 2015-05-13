@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Best Buy test on Web browser" >
+
+    <parameter name = "url" value = "http://www.BestBuy.com"/>
+
+
+    <test name = "Best Buy Home Page ">
+        <classes>
+            <class name = "BestBuyTest.BestBuyHome"/>
+            <class name = "BestBuyTest.BestBuySearch"/>
+            <class name = "BestBuyTest.BestBuySignin"/>
+            <class name = "BestBuyTest.Search"/>
+
+
+
+
+        </classes>
+    </test>
+
+</suite>
